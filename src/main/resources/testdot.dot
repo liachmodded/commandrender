@@ -1,0 +1,34 @@
+digraph {
+graph ["clusterrank"="local","dpi"="96","rankdir"="LR"]
+subgraph "cluster_datapack" {
+graph ["label"="datapack"]
+"72f5fb36" ["shape"="rectangle","label"="datapack"]
+"300b839c" ["shape"="rectangle","label"="disable"]
+"a422390" ["shape"="diamond","color"="red","label"="<name>"]
+"5317a7ef" ["shape"="rectangle","label"="enable"]
+"53c39950" ["shape"="diamond","color"="red","label"="<name>"]
+"2a5917f6" ["shape"="rectangle","label"="after"]
+"1aa7d66e" ["shape"="diamond","color"="red","label"="<existing>"]
+"558fa64a" ["shape"="rectangle","label"="before"]
+"5cc85ffc" ["shape"="diamond","color"="red","label"="<existing>"]
+"68d1f4e2" ["shape"="rectangle","color"="red","label"="first"]
+"5a63de07" ["shape"="rectangle","color"="red","label"="last"]
+"6fa48ee4" ["shape"="rectangle","color"="red","label"="list"]
+"221ef0f0" ["shape"="rectangle","color"="red","label"="available"]
+"34ad750f" ["shape"="rectangle","color"="red","label"="enabled"]
+"72f5fb36" -> "300b839c"
+"72f5fb36" -> "5317a7ef"
+"72f5fb36" -> "6fa48ee4"
+"300b839c" -> "a422390"
+"5317a7ef" -> "53c39950"
+"53c39950" -> "2a5917f6"
+"53c39950" -> "558fa64a"
+"53c39950" -> "68d1f4e2"
+"53c39950" -> "5a63de07"
+"2a5917f6" -> "1aa7d66e"
+"558fa64a" -> "5cc85ffc"
+"6fa48ee4" -> "221ef0f0"
+"6fa48ee4" -> "34ad750f"
+}
+"38c7ad43" -> "72f5fb36"
+}

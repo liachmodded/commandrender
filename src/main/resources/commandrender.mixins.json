@@ -1,0 +1,13 @@
+{
+  "required": true,
+  "package": "com.github.liachmodded.commandrender.mixin",
+  "compatibilityLevel": "JAVA_8",
+  "mixins": [
+    "ServerMixin"
+  ],
+  "client": [
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

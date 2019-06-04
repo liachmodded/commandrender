@@ -1,0 +1,34 @@
+{
+  "schemaVersion": 1,
+  "id": "commandrender",
+  "version": "${version}",
+
+  "name": "command render",
+  "description": "${description}",
+  "authors": [
+    "liach"
+  ],
+  "contact": {
+    "homepage": "https://github.com/liachmodded/commandrender",
+    "sources": "https://github.com/liachmodded/commandrender"
+  },
+
+  "license": "Unlicense",
+  "icon": "assets/commandrender/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.github.liachmodded.commandrender.CommandRender"
+    ]
+  },
+  "mixins": [
+    "commandrender.mixins.json"
+  ],
+
+  "requires": {
+    "fabricloader": ">=0.4.0"
+  },
+  "suggests": {
+  }
+}
